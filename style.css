@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  background: black;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+span {
+  font-size: 300px;
+  color: blue;
+}
+
+.btn {
+  margin-right: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  transition: all 1s;
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: 50px;
+}
+.btn:hover {
+  background: black;
+  color: aliceblue;
+}
